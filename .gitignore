@@ -1,1 +1,7 @@
 .vscode/
+w2/OF1/bin/
+w2/OF1/obj/
+addons.make
+config.make
+Makefile
+OF1.qbs
