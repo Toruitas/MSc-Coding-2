@@ -1,8 +1,8 @@
 # Coursework for Creative Coding 2
 
-### UAL: Creative Computing Institute
-### With professor Mick Grierson
-### By me, Stuart Leitch!
+UAL: Creative Computing Institute
+With professor Mick Grierson
+By me, Stuart Leitch!
 
 ## The Code
 

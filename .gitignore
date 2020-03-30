@@ -6,4 +6,4 @@ config.make
 Makefile
 OF1.qbs
 /env
-/.venv
+.venv/

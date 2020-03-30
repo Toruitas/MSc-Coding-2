@@ -19,11 +19,12 @@ def choose_next_link(next_link_candidates: list) -> list:
     Given a list of URLs strings from the website scraped, it chooses which link to go to next.
     We're using only the MOST TRUSTWORTHY not Fake News papers.
     Clearly we'll get non-sensational and useful content.
+    "untrusted sources"
     """
 
     print()
     url_keywords = ["breitbart", "foxnews", "thehill", "dailymail", "drudgereport", "hannity", "onion", "chinadaily",
-                    "rt.com", "redstate", ]
+                    "rt.com", "redstate", "freebeacon","washingtonexaminer","politico","xinhua","wsj"]
     next_links = []
     for link in next_link_candidates:
         for rightist_url_keyword in url_keywords:
@@ -40,16 +41,21 @@ def parse_page(webpage: requests.Response, dict_list_to_write: list) -> tuple:
     :return: summary for inclusion in data row, next_link_candidates_cleaned for the next round of scraping
     """
     soup = BeautifulSoup(webpage.text, 'html.parser')
-    next_link_candidates = set([a.get('href') for a in soup.find_all('a')])  # make sure they're unique here
+    next_link_candidates = set([(a.get('href'), a.get_text()) for a in soup.find_all('a')])  # make sure they're unique here
+    print(next_link_candidates)
     next_link_candidates_cleaned = []
     if len(next_link_candidates) > 0:
         for link in next_link_candidates:
+            print(link[0])
+            print(link[1])
+            print(("corona" in link[1] or "Corona" in link[1] or "COVID-19" in link[1] or "Virus" in link[1] or "virus" in link[1]))
             if link:  # a.get('href') will sometimes return None if it contains a tag within. Ignore that.
-                if link != webpage.url and "mailto:" not in link and webpage.url not in dict_list_to_write:
+                if link[0] != webpage.url and "mailto:" not in link[0] and webpage.url not in dict_list_to_write and \
+                ("corona" in link[1] or "Corona" in link[1] or "COVID-19" in link[1] or "Virus" in link[1] or "virus" in link[1]):
                     if link[0] == "/":
-                        next_link_candidates_cleaned.append(webpage.url + link)
+                        next_link_candidates_cleaned.append(webpage.url + link[0])
                     else:
-                        next_link_candidates_cleaned.append(link)
+                        next_link_candidates_cleaned.append(link[0])
 
     paragraphs = soup.find_all('p')
     paragraphs = [p.get_text() for p in paragraphs]
