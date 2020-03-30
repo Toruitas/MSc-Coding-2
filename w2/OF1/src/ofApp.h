@@ -25,8 +25,8 @@ class ofApp : public ofBaseApp{
 		int segments;
 		float spacing;
 		int radius;
-		int numerator;
-		int denominator;
+		float numerator;
+		float denominator;
 		float x,y,xN, yN;
 		bool increment_num, increment_denom;
 		

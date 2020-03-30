@@ -48,14 +48,14 @@ void ofApp::draw(){
         increment_denom = true;
     }
     if(increment_num){
-        numerator +=1;
+        numerator +=0.5;
     }else{
-        numerator -=1;
+        numerator -=0.25;
     }
     if(increment_denom){
-        denominator +=1;
+        denominator +=0.5;
     }else{
-        denominator -=1;
+        denominator -=0.125;
     }
 
 
