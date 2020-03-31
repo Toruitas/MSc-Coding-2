@@ -48,4 +48,4 @@ And alternatively, this version looks like it's made of fabric, after tweaking f
 
 Of the two approaches, I think that Neural Style Transfer is the more predictable approach, and probably more useful as a result. Both approaches certainly don't treat "style" like humans do, which is good to be aware of. 
 
-And why always eyeballs? Guess the training set didn't have much exposure to round-shaped but non-eye objects. 
+And why always eyeballs? Guess the training set didn't have much exposure to round-shaped but non-eye objects. Even the cat's eye isn't made of ONE eyeball but at least 3. 
