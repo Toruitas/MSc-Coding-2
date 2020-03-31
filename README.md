@@ -54,4 +54,6 @@ Don't forget: make && make run
 * Designing autonomous embedded systems
 * Using simple sound and light sensors for interaction
 
+#### Week 8 code - Realtime object detection & greenscreen: [source](/w7)
+
 ### Week 9 - Project work
