@@ -15,8 +15,8 @@ All of this code is a second-run. Which is to say, I did all this once before, a
 * Getting started with openFrameworks
 Understanding Pointers
 
-#### Week 1 - C++ basics code: [source](/w1)
-#### Week 2 - Open Frameworks basics code: [source](/w2/OF1)
+#### Week 1 code - C++ basics code: [source](/w1)
+#### Week 2 code - Open Frameworks basics code: [source](/w2/OF1)
 Don't forget: make && make run 
 
 ### Week 3 & 4 - Python
@@ -27,17 +27,25 @@ Don't forget: make && make run
 * Core libs : matplotlib, numpy, pandas, urllib, bs4, gensim, bokeh, flask.
 * NLP tools in gensim.
 
+#### Week 3 code - Python Challenge: [source](/w3)
+#### Week 4 code - Webscraper: [source](/w4)
+
 ### Week 5 & 6 - Python Machine Learning
 
 * Introduction to Image Processing, Batch processing and Data Handling
 * Basic Neural Networks by hand - Forward multiply, Forward add, backward pass, calculating derivatives and gradients, numerical gradient, analytic gradient, scaling the gradient to automatically adjust parameters. Back propagation for training Neural Networks.
 * Introduction to Tensorflow
 
+#### Week 5 code - Neuralnet by hand: (Not re-done)
+#### Week 6 code - Image processing with Numpy: (Not re-done) [source](/w6)
+
 ### Week 7 - More Python Machine Learning
 
 * Neural Networks for image classification
 * Using Tensorflow to do inference on pre-trained models
 * Exploring CNNs, RNNs, GANs.
+
+#### Week 7 code - Neural Style Transfer & DeepDream: [source](/w7)
 
 ### Week 8 - Embedded development
 
