@@ -17,7 +17,6 @@ Understanding Pointers
 
 #### Week 1 code - C++ basics code: [source](/w1)
 #### Week 2 code - Open Frameworks basics code: [source](/w2/OF1)
-Don't forget: make && make run 
 
 ### Week 3 & 4 - Python
 
@@ -36,8 +35,8 @@ Don't forget: make && make run
 * Basic Neural Networks by hand - Forward multiply, Forward add, backward pass, calculating derivatives and gradients, numerical gradient, analytic gradient, scaling the gradient to automatically adjust parameters. Back propagation for training Neural Networks.
 * Introduction to Tensorflow
 
-#### Week 5 code - Neuralnet by hand: (Not re-done)
-#### Week 6 code - Image processing with Numpy: (Not re-done) [source](/w6)
+#### Week 5 code - Neuralnet by hand: (Not re-written after HDD crash)
+#### Week 6 code - Image processing with Numpy: (Not re-written after HDD crash)
 
 ### Week 7 - More Python Machine Learning
 
@@ -54,6 +53,6 @@ Don't forget: make && make run
 * Designing autonomous embedded systems
 * Using simple sound and light sensors for interaction
 
-#### Week 8 code - Realtime object detection & greenscreen: [source](/w7)
+#### Week 8 code - Realtime object detection & greenscreen: [source](/w8)
 
 ### Week 9 - Project work

@@ -5,5 +5,7 @@ addons.make
 config.make
 Makefile
 OF1.qbs
-/env
+/env/
 .venv/
+channel/
+.ipynb_checkpoints/
