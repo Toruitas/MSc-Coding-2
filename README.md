@@ -8,6 +8,8 @@ By me, Stuart Leitch!
 
 All of this code is a second-run. Which is to say, I did all this once before, and this is the second time. Why do it again? Because my harddrive failed and I lost the entire quarter's code! Irrecoverably lost! Take this as a reminder to **back your shit up!**
 
+For grading, please look at Weeks 2, 3, 4, 7, and 8. Links below.
+
 ### Week 1 & 2 - C++
 
 * Introduction to C++ fundamentals: main.cpp, #include, printing to the console, data types, conditionals, loops, functions, preprocessing and compilation.
@@ -55,4 +57,4 @@ Understanding Pointers
 
 #### Week 8 code - Realtime object detection & greenscreen: [source](/w8)
 
-### Week 9 - Project work
+### Week 9 - Project work - TBD

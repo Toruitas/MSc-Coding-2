@@ -64,4 +64,4 @@ http://www.pythonchallenge.com/pc/def/oxygen.html
 
 It's an image with a greyscale band across the center. Title smarty. No other content. A "center" tag but that's it.
 
-The greyscale images clearly are what we're after here. Using Pillow to get the greyscale values and converting to Ascii got the next step.
+The greyscale images clearly are what we're after here. Using Pillow to get the greyscale values and converting to Ascii got the next step. Integrity.
