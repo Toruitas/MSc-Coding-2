@@ -1,8 +1,11 @@
 # Coursework for Creative Coding 2
 
 UAL: Creative Computing Institute
-With professor Mick Grierson
+
+Taught by Professor Mick Grierson
+
 By me, Stuart Leitch!
+
 
 ## The Code
 
@@ -55,6 +58,6 @@ Understanding Pointers
 * Designing autonomous embedded systems
 * Using simple sound and light sensors for interaction
 
-#### Week 8 code - Realtime object detection & greenscreen: [source](/w8)
+#### Week 8 code - People blurring & greenscreen: [source](/w8)
 
 ### Week 9 - Project work - Drawing Tool: [source](https://github.com/Toruitas/drawing-tool)
