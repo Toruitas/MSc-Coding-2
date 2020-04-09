@@ -12,7 +12,12 @@ It would normally be bad juju, but this time, installing everything to the root 
 
 This makes the Nano a single-use at a time machine. That's fine, it's meant to do one thing at the edge. Just need to change the frame of mind and get used to the idea of having multiple SD cards for multiple purposes. 
 
-For more specific installation instructions please see (my other experiments repo)[https://github.com/Toruitas/Jetson-Nano-Experiments].
+For more specific installation instructions please see [my other experiments repo](https://github.com/Toruitas/Jetson-Nano-Experiments).
+
+Eventually, you can open Intel's viewing tool to see it in action.
+
+![Jetson and Realsense](/realsense-and-jetson.JPG)
+![Jetson and Realsens](/realsense-colored-depth.JPG)
 
 So, to the task at hand. 
 
@@ -24,6 +29,8 @@ Numba is used to increase parallelization and speed of Numpy's re-painting of th
 
 To run it, connect an Intel Realsense Camera and run `python greenscreen.py`. It will open a viewing window automatically. `ctrl+c` in the terminal to exit.
 
+![Jetson and Realsense](/greenscreen.jpg)
+
 ## Discover People
 
 Building on the Greenscreen, and again using the Intel Realsense Camera, the Discover People script uses a pre-trained MobileNetSSD Caffe model to locate visitors to Tate and blurs them out. There's a colorful rainbow bounding box. The camera view is flipped to achieve a mirror effect, since the camera was facing the same direction as the screen. 
@@ -31,3 +38,5 @@ Building on the Greenscreen, and again using the Intel Realsense Camera, the Dis
 To run it, connect an Intel Realsense Camera and run `python discover_people.py`. It will open a viewing window automatically. `ctrl+c` in the terminal to exit.
 
 Both scripts run slowly enough on the Jetson Nano that to continue working on this sort of project would necessitate a move to either more powerful hardware or C++. The Realsense Camera has a C++ API so it would be a relatively smooth transition.
+
+Unfortunately, I didn't take any photos/screenshots of this feature.
